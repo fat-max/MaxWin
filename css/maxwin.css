@@ -3,7 +3,6 @@
   font-family:tahoma,arial,verdana,sans-serif;
   position:fixed;
   background:lightblue;
-  /*background:#fff;*/
   width:500px;
   height:500px;
   border:1px solid darkblue;
@@ -18,9 +17,6 @@
 .mw .mw-header span.mw-title {
   font-weight:bold;
   padding:2px 5px;
-  /*background:grey;*/
-  /*height:20px;*/
-  /*float:left;*/
   position:absolute;
   z-index:-1;
   
@@ -47,7 +43,6 @@
   background:#fff;
 }
 .mw.ui-draggable .mw-header {
-  /*cursor:move;*/
 }
 .mw .mw-content {
   position:absolute;
