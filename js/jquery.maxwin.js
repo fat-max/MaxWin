@@ -137,7 +137,7 @@
     }
     
     
-    return window;
+    return maxWin;
   };
 
 
