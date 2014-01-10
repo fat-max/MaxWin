@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MaxWinPlugin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/maxwin.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Windows!</h1>
+    <input type="button" onclick="openWindow(true)" value="Dragable">
+    <input type="button" onclick="openWindow(false)" value="Fixed">
+    
+<!--    <div id="test" class="mv">
+      <div class="mv-header">
+        <span class="mv-title">Title</span>
+        <span class="mv-action-bar">
+          <i class="mv-minimize">_</i>
+          <i class="mv-maximize"></i>
+          <i class="mv-close">x</i>
+        </span>
+      </div>
+    </div>-->
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/jquery.maxwin.js"></script>
+    <script>
+    function openWindow(draggable) {
+      var win = $(document).maxwin({
+        url: 'dummy_content.html',
+        modal: true,
+        title: 'dummy_content',
+        draggable: draggable,
+//        complete: function(win) {
+//          console.log('Look: A window');
+//        }
+      });
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+.mw {
+  font-size:11px;
+  font-family:tahoma,arial,verdana,sans-serif;
+  position:fixed;
+  background:lightblue;
+  /*background:#fff;*/
+  width:500px;
+  height:500px;
+  border:1px solid darkblue;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius:3px;
+  overflow:hidden;
+}
+.mw .mw-header {
+  color:darkblue;
+  height:20px;
+}
+.mw .mw-header span.mw-title {
+  font-weight:bold;
+  padding:2px 5px;
+  /*background:grey;*/
+  /*height:20px;*/
+  /*float:left;*/
+  position:absolute;
+  z-index:-1;
+  
+}
+.mw .mw-header span.mw-action-bar {
+  float:right;
+  padding:2px 5px;
+  background:lightblue;
+}
+.mw .mw-header span.mw-action-bar i {
+  font-weight:bold;
+  border:1px solid darkblue;
+  border-radius:3px;
+  padding-bottom:3px;
+  font-style:normal;
+  float:left;
+  height:12px; 
+  width:15px;
+  text-align:center;
+  margin-right:3px;
+  cursor:default;
+}
+.mw .mw-header span.mw-action-bar i:hover {
+  background:#fff;
+}
+.mw.ui-draggable .mw-header {
+  /*cursor:move;*/
+}
+.mw .mw-content {
+  position:absolute;
+  background:#fff;
+  margin:5px;
+  padding:5px;
+  box-sizing:border-box;
+}
